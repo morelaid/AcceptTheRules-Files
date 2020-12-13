@@ -1,0 +1,27 @@
+Info:
+  ReloadComplete: '&r[&4Accept&eThe&2Rules&r] &3The configurations have been reloaded!'
+  PlayerNotFound: '&r[&4Accept&eThe&2Rules&r] &4Player not found!'
+  NoPermission: '&r[&4Accept&eThe&2Rules&r] &4You are not allowed to use this command!'
+PlayerInfo:
+  Playername: '&2Player:&5 '
+  HasAccepted: '&2Has accepted:&3 '
+  Version: '&2Version:&6 '
+  Date: '&2Accepted date:&5 '
+Message:
+  ResetPlayer: '&3The data of &6%player% &3has been reset. Now the player has to accept
+    the rules again.'
+  RulesCooldown: '&6>>> &4Please read the rules carefully and do not try to skip them!
+    &6<<<'
+  StartMessage: Please type &6['/rules'](/rules)&f to read and agree the rules. You
+    will get some rewards!
+  AcceptText: 'Please confirm that you have read and understood the rules: '
+  FreezeText: You can not move. Please read and accept the rules with the command
+    '/rules'!
+  PreventChat: '&6You have to accept the rules first. Please type ''&3/rules&6'' to
+    accept the rules.'
+  PreventCommands: '&6You have to accept the rules first. Please type ''&3/rules&6''
+    to accept the rules.'
+  PreventInteract: '&6You have to accept the rules first. Please type ''&3/rules&6''
+    to accept the rules.'
+  Report: All configuration files and the last log file were stored in the ATR directory
+    as "Report.zip" file. Please send the file to ATR's support team
