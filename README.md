@@ -13,4 +13,4 @@ If you want to add a new version or a new language, just create a pull request w
 2. Add all files except the "playerdata" file
 3. Create a new file with the name "credits.md". Here you enter the following:
 "# The files were kindly provided by <your username>".
- 4. Send your pull request
+4. Send your pull request
