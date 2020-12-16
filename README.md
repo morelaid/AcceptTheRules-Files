@@ -9,8 +9,8 @@ The files provided here were created by the community and can be used as you lik
 If you want to add a new version or a new language, just create a pull request with your version.
 
 ## Structure / Rules
-1. Create a new folder in the appropriate version of AcceptTheRules. Name this with the language code (link) and the version of AcceptTheRules (example: "EN_3.0")
+1. Create a new folder in the appropriate version of AcceptTheRules. Name this with the language code by ISO 639-1 (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and the version of AcceptTheRules (example: "EN_3.0")
 2. Add all files except the "playerdata" file
 3. Create a new file with the name "credits.md". Here you enter the following:
-"# The files were kindly provided by <your username>".
-4. Send your pull request
+"# The files were kindly provided by XXX".
+ 4. Send your pull request
