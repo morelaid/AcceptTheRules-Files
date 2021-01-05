@@ -21,9 +21,9 @@ Parting:
   PlayerInfoFooter: '&6_____________________________________________'
   Default: '&6_____________________________________________'
 #Tu sú uvedené príkazy ktoré sa použijú keď hráč klikni na "prijať" alebo "odmietnuť"
-#Príkazy sú vykonané konzol, hráč na ne nemusia mať povolenie. S "% player%" je použité hráčovo meno.
+#Príkazy sú vykonané konzol, hráč na ne nemusia mať povolenie. S "%player%" je použité hráčovo meno.
 #Farebné kódy môžu byť použité v príkazoch aj v správach.
-#Ak chceš, aby bol príkaz použitý ako keby ho napísal manuálne hráč (ktorý má povolenie), pridaj "% asPlayer%" na konci príkazu.
+#Ak chceš, aby bol príkaz použitý ako keby ho napísal manuálne hráč (ktorý má povolenie), pridaj "%asPlayer%" na konci príkazu.
 #Poznámka: Ak hráč nebude mať povolenie na použitie príkazu, ukáže sa mu "You do not have permission for this command" (Nemáš permisi), hoci hráč nevie, ktorý príkaz použil.
 Commands:
   AcceptedExecutes:
