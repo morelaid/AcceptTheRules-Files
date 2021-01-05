@@ -1,1 +1,0 @@
-# The files were kindly provided by Letadilko

@@ -1,9 +1,0 @@
-Version: 1.0.0
-Rules:
-- => (✘) Nepoužívej hacky na tomto Serveru!
-- => &4(✘) Nemáš povoleno používat X-Ray
-- => (✔) Toto je třetí pravidlo!
-- => (✔) Toto je čtvrté pravidlo!
-- => (✎) Změň pravidla na své pravidla serveru (✉)
-- => &2(★) &bMůžeš použít barevné kódy pro pravidla
-- => Vytvoř text na který jde kliknout &6[Klikni](https://discord.gg/5zuC36R)&f
