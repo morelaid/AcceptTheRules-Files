@@ -1,0 +1,64 @@
+#Menu sú tlačidlá pre navidgování skrz stránkach v pravidlách. Farebné kódy Minecraftu tu môžu byť použité.
+#Space = medzera medzi "Späť" a "Ďalšie" a potom medzi "prijať" a "odmietnuť" tlačidlom.
+Menu:
+  BackButton: '&3<< &2Späť'
+  NextButton: '&2Ďalší &3>>'
+  AcceptButton: '&2>> Prijať <<'
+  DenyButton: '&4>> Odmietnuť <<'
+  Space: '               '
+#"RulesPerPage" je počet pravidiel na jednu stránku. Toto automaticky spočíta počet stránok.
+#"RulesCooldown" je čas (v sekundách) koľko hráč musí byť minimálne času na jednej stránke než môže kliknúť na "Ďalší". Toto je proti preskakovanie pravidiel.
+Page:
+  RulesPerPage: 4
+  RulesCooldown: 3
+#"Parting" je pätička a hlavička medzi jednotlivými sekciami. Farebné Minecraft kódy tu môžu byť použité.
+Parting:
+  Header: '&6__________________[ %page% / %maxpage% ]_____________________'
+  Footer: '&6_____________________________________________'
+  AcceptPageHeader: '&6_____________________________________________'
+  AcceptPageFooter: '&6_____________________________________________'
+  PlayerInfoHeader: '&6_____________________________________________'
+  PlayerInfoFooter: '&6_____________________________________________'
+  Default: '&6_____________________________________________'
+#Tu sú uvedené príkazy ktoré sa použijú keď hráč klikni na "prijať" alebo "odmietnuť"
+#Príkazy sú vykonané konzol, hráč na ne nemusia mať povolenie. S "% player%" je použité hráčovo meno.
+#Farebné kódy môžu byť použité v príkazoch aj v správach.
+#Ak chceš, aby bol príkaz použitý ako keby ho napísal manuálne hráč (ktorý má povolenie), pridaj "% asPlayer%" na konci príkazu.
+#Poznámka: Ak hráč nebude mať povolenie na použitie príkazu, ukáže sa mu "You do not have permission for this command" (Nemáš permisi), hoci hráč nevie, ktorý príkaz použil.
+Commands:
+  AcceptedExecutes:
+ - atrpublic &6%player% &fpřijmul pravidlá serveri!
+  DenyExecutes:
+ - atrpublic &3%player% &fodmietol pravidlá serveri!
+#Príkazy ktoré má hráč povolenej použiť hoci nepřijmul pravidlá. V prípade používania AuthMe sa odporúča pripísať login/register. Platí iba ak -> "Prevent -> Commands = true"
+  AllowedCommands:
+  - rules
+  - rule
+  - atrnext
+  - atrback
+  - atraccept
+  - atrdeny
+  - atrprivate
+  - atrpublic
+#Pošle štartovacie správu (môže byť zmenená v messages.yml súboru), a oneskorenia správy po pripojení.
+StartMessage:
+  Enable: true
+  Delay: 0
+#Zmrazí a zablokuje pohyb hráči, aby sa sústredil na pravidlá.
+#Aby hráč nebol spamován zprávama keď sa chce pohnúť, je tu "MessageCooldown", ktorý nastaví odozvu medzi zprávama (v sekundách)
+Freeze:
+  Enable: false
+  MessageCooldown: 3
+#Zabráni hráčovej používať rôzne nižšie uvedené akcie. Ak je hodnota nastavená na "true", hráč potom nemôže tieto nižšie uvedené akcie robiť. (I.e. protekcie je zapnutá).
+#Doba opätovného použitia príkazu je nastavená v sekundách
+Prevent:
+  Chat: false
+  Commands: false
+  Interact: false
+  MessageCooldown: 3
+#Ak chceš, aby hráč pravidlá prečítal a potvrdil raz za X dní, nastav "Enable" na "true".
+#Po X dňoch bude musieť hráč opätovne prečítať a potvrdiť pravidlá (automaticky)
+#Dni sú uvedené ako reálne dni (24h). Nemajú nič spoločné s minecraftím dnom.
+Period:
+  Enable: false
+  Days: 90
