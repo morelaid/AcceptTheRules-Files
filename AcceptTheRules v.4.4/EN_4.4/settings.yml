@@ -1,0 +1,45 @@
+Menu:
+  BackButton: '&3<< &2Back'
+  NextButton: '&2Next &3>>'
+  AcceptButton: '&2>> Accept <<'
+  DenyButton: '&4>> Deny <<'
+  Space: '               '
+Page:
+  RulesPerPage: 4
+  RulesCooldown: 3
+Parting:
+  Header: '&6__________________[ %page% / %maxpage% ]_____________________'
+  Footer: '&6_____________________________________________'
+  AcceptPageHeader: '&6_____________________________________________'
+  AcceptPageFooter: '&6_____________________________________________'
+  PlayerInfoHeader: '&6_____________________________________________'
+  PlayerInfoFooter: '&6_____________________________________________'
+  Default: '&6_____________________________________________'
+Commands:
+  AcceptedExecutes:
+  - atrpublic &6%player% &fhas accepted the server rules!
+  DenyExecutes:
+  - atrpublic &3%player% &f has denied the rules!
+  AllowedCommands:
+  - rules
+  - rule
+  - atrnext
+  - atrback
+  - atraccept
+  - atrdeny
+StartMessage:
+  Enable: true
+  Delay: 0
+Freeze:
+  Enable: false
+  MessageCooldown: 3
+Options:
+  SetAdventureMode: false
+Prevent:
+  Chat: false
+  Commands: false
+  Interact: false
+  MessageCooldown: 3
+Period:
+  Enable: false
+  Days: 90

@@ -1,0 +1,20 @@
+Info:
+  ReloadComplete: '&r[&4Accept&eThe&2Rules&r] &3Die Konfigurationsdatei wurde neugeladen!'
+  PlayerNotFound: '&r[&4Accept&eThe&2Rules&r] &4Spieler nicht gefunden!'
+  NoPermission: '&r[&4Accept&eThe&2Rules&r] &4Du darfst diesen Befehl nicht verwenden!'
+PlayerInfo:
+  Playername: '&2Player:&5 '
+  HasAccepted: '&2Hat Akzeptiert:&3 '
+  Version: '&2Version:&6 '
+  Date: '&2Datum:&5 '
+Message:
+  ResetPlayer: '&3Daten von &6%player% &3wurden zurückgesetzt. Der Spieler muss die Regeln erneut akzeptieren.'
+  RulesCooldown: '&6>>> &4Bitte lese die Regeln aufmerksam und versuche nicht, diese zu überspringen &6<<<'
+  StartMessage: "Bitte akzeptiere die Regeln unter '/rules'"
+  AcceptText: 'Bitte bestätige, dass du die Regeln gelesen/verstanden hast und akzeptierst. Und das du mindestens 18 Jahre alt bist: '
+  FreezeText: "Du kannst dich nicht bewegen. Bitte akzeptiere erst die Regeln unter '/rules'"
+  PreventChat: "Du kannst keine Nachrichten schreiben. Bitte akzeptiere erst die Regeln unter '/rules'"
+  PreventCommands: "Du kannst keine Befehle eingeben. Bitte akzeptiere erst die Regeln unter '/rules'"
+  PreventInteract: "Du kannst nicht mit Gegenständen interagieren. Bitte akzeptiere erst die Regeln unter '/rules'"
+  Report: Alle Dateien und die Lastest.log wurde im ATR Verzeichnis als "Report.zip" Datei gespeichert. Bitte sende diese Datei an das ATR Supportteam
+  PrivatBypassInfoMessage: '&6%player% &fhat die Regeln akzeptiert!'
