@@ -13,9 +13,9 @@ Message:
   StartMessage: prosím použi &6['/rules'](/rules)&f pre prečítanie a súhlas s pravidlami. Potom dostaneš odmenu!
   AcceptText: 'Prosím, potvrď že si si prečítal pravidlá a súhlasíš s nima:'
   FreezeText: Nemôžeš sa hýbať. Prosím prečítaj a potvrď pravidlá pod /rules
-  PreventChat: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi '' &3/ rules&6 '' pre ich prečítanie a potvrdenie.'
+  PreventChat: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi '' &3/rules&6 '' pre ich prečítanie a potvrdenie.'
   PreventCommands: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi ''&3 /rules&6 '' pre ich prečítanie a potvrdenie.'
-  PreventInteract: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi ''&3 / rules&6 '' pre ich prečítanie a potvrdenie.'
+  PreventInteract: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi ''&3 /rules&6 '' pre ich prečítanie a potvrdenie.'
   Report: Všetky súbory a posledný log boli uložené do ATR zložky
      ako "Report.zip" súbor. Prosím, pošli tento súbor ATR podpore.
   PrivatBypassInfoMessage: '&6%player% &fpřijmul a súhlasil s pravidlami!'
