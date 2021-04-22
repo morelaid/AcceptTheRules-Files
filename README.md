@@ -1,3 +1,15 @@
+# AcceptTheRules - Forces players to read and accept your rules
+
+![AcceptTheRules](https://cdn.discordapp.com/attachments/691311505655988244/799318129154457600/ATR-Banner2.png)
+
+
+
+### [Download](https://www.spigotmc.org/resources/53775/)
+
+### [Wiki](https://github.com/morelaid/AcceptTheRules-Files/wiki)
+
+
+
 # AcceptTheRules
 ### Files for AcceptTheRules | A Minecraft rules plugin for servers
 https://www.spigotmc.org/resources/53775/
