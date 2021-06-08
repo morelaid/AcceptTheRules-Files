@@ -1,0 +1,9 @@
+Version: 1.0.0
+Rules:
+- => (✘) Gebruik geen hacks op de server!
+- => &4(✘) Je mag geen X-Ray gebruiken!
+- => (✔) Dit is de derde regel!
+- => (✔) Er is een vierde regel!
+- => (✎) Verander de regels naar jouw eigen server regels. (✉)
+- => &2(★) &bJe kan kleur codes gebruiken voor de regels...
+- => Maak klikbare tekst zoals &6[click me](https://discord.gg/5zuC36R)&f
