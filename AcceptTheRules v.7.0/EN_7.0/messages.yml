@@ -25,4 +25,4 @@ Message:
     to accept the rules.'
   Report: All configuration files and the last log file were stored in the ATR directory
     as "Report.zip" file. Please send the file to ATR's support team
-  PrivatBypassInfoMessage: '&6%player% &fhas accpeted the rules!'
+  PrivatBypassInfoMessage: '&6%player% &fhas accepted the rules!'
