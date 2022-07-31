@@ -1,0 +1,45 @@
+Menu:
+  BackButton: '&3<< &2Zurück'
+  NextButton: '&2Weiter &3>>'
+  AcceptButton: '&2>> Akzeptieren <<'
+  DenyButton: '&4>> Ablehnen <<'
+  Space: '               '
+Page:
+  RulesPerPage: 5
+  RulesCooldown: 10
+Parting:
+  Header: '&6__________________[ %page% / %maxpage% ]_____________________'
+  Footer: '&6_____________________________________________'
+  AcceptPageHeader: '&6_____________________________________________'
+  AcceptPageFooter: '&6_____________________________________________'
+  PlayerInfoHeader: '&6_____________________________________________'
+  PlayerInfoFooter: '&6_____________________________________________'
+  Default: '&6_____________________________________________'
+Commands:
+  AcceptedExecutes:
+  - atrpublic &6%player% &fhat die Regeln akzeptiert!
+  DenyExecutes:
+  - kick %player% Bitte akzeptiere die Regeln, um auf dem Server spielen zu können
+  AllowedCommands:
+  - rules
+  - rule
+  - atrnext
+  - atrback
+  - atraccept
+  - atrdeny
+  - atrprivate
+  - atrpublic
+StartMessage:
+  Enable: true
+  Delay: 1
+Freeze:
+  Enable: true
+  MessageCooldown: 3
+Prevent:
+  Chat: false
+  Commands: false
+  Interact: false
+  MessageCooldown: 3
+Period:
+  Enable: false
+  Days: 90

@@ -1,0 +1,21 @@
+Info:
+  ReloadComplete: '&r[&4Accept&eThe&2Rules&r] &3Konfigurácia bola opätovne načítaná!'
+  PlayerNotFound: '&r[&4Accept&eThe&2Rules&r] &4Hráč nie je nájdený!'
+  NoPermission: '&r[&4Accept&eThe&2Rules&r] &4Na tento príkaz nemáš povolenie!'
+PlayerInfo:
+  Playername: '&2Hráč:&5 '
+  HasAccepted: '&2Prijmul:&3 '
+  Version: '&2Verzia:&6 '
+  Date: '&2Dátum prijatie:&5 '
+Message:
+  ResetPlayer: '&3Dáta hráče &6%player% &3bola vynulovaná. Hráč teraz musí znovu potvrdiť pravidlá.'
+  RulesCooldown: '&6>>> &4Prosím, čítaj pravidlá starostlivo a nesnaž sa ich preskočiť!&6<<<'
+  StartMessage: prosím použi &6['/rules'](/rules)&f pre prečítanie a súhlas s pravidlami. Potom dostaneš odmenu!
+  AcceptText: 'Prosím, potvrď že si si prečítal pravidlá a súhlasíš s nima:'
+  FreezeText: Nemôžeš sa hýbať. Prosím prečítaj a potvrď pravidlá pod /rules
+  PreventChat: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi '' &3/rules&6 '' pre ich prečítanie a potvrdenie.'
+  PreventCommands: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi ''&3 /rules&6 '' pre ich prečítanie a potvrdenie.'
+  PreventInteract: '&6Prvé musíš súhlasiť s pravidlami. Prosím použi ''&3 /rules&6 '' pre ich prečítanie a potvrdenie.'
+  Report: Všetky súbory a posledný log boli uložené do ATR zložky
+     ako "Report.zip" súbor. Prosím, pošli tento súbor ATR podpore.
+  PrivatBypassInfoMessage: '&6%player% &fpřijmul a súhlasil s pravidlami!'
