@@ -1,0 +1,25 @@
+Info:
+  ReloadComplete: '&r[&4Accept&eThe&2Rules&r] &3De config is herladen!'
+  PlayerNotFound: '&r[&4Accept&eThe&2Rules&r] &4Speler niet gevonden!'
+  NoPermission: '&r[&4Accept&eThe&2Rules&r] &4Jij hebt geen toegang tot deze command!'
+PlayerInfo:
+  Playername: '&2Speler:&5 '
+  HasAccepted: '&2Accepteerde:&3 '
+  Version: '&2Versie:&6 '
+  Date: '&2Geaccepteerd op:&5 '
+Message:
+  ResetPlayer: '&3De data van &6%player% &3is gereset. Nu moet de speler de regels opnieuw accepteren.'
+  RulesCooldown: '&6>>> &4Lees de regels zorgvuldig en probeer ze niet over te slaan!
+    &6<<<'
+  StartMessage: Typ &6['/rules'](/rules)&f om de regels te lezen en te accepteren. Je zult een beloning ontvangen!
+  AcceptText: 'Bevestig dat je de regels heb gelezen en dat je deze begrijpt: '
+  FreezeText: Je kunt niet bewegen. Lees de regels en accepteer de regels met de command
+    '/rules'!
+  PreventChat: '&6Je moet eerst de regels accepteren.  typ ''&3/rules&6'' om de regels te accepteren.'
+  PreventCommands: '&6Je moet eerst de regels accepteren. typ ''&3/rules&6''
+    om de regels te accepteren.'
+  PreventInteract: '&6Je moet eerst de regels accepteren. typ ''&3/rules&6''
+    om de regels te accepteren.'
+  Report: Alle configuratie bestanden en het laatste log bestand is opgeslagen in de ATR directory
+    als "Report.zip". Verstuur het bestand naar ATR's support team
+  PrivatBypassInfoMessage: '&6%player% &fheeft de regels geaccepteerd!'

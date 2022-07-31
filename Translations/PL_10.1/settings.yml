@@ -1,0 +1,55 @@
+Menu:
+  BackButton: '&3<< &2Poprzednie'
+  NextButton: '&2Następne &3>>'
+  AcceptButton: '&2>> Akceptuj <<'
+  DenyButton: '&4>> Odrzuć <<'
+  Space: '               '
+  Bedrock:
+    BackButtonMaterial: GHAST_TEAR
+    NextButtonMaterial: GLOWSTONE_DUST
+    AcceptButtonMaterial: DIAMOND
+    DenyButtonMaterial: RED_MUSHROOM
+Page:
+  RulesPerPage: 4
+  RulesCooldown: 3
+Parting:
+  Header: '&6------------------[ %page% / %maxpage% ]------------------'
+  Footer: '&6---------------------------------------------'
+  AcceptPageHeader: '&6---------------------------------------------'
+  AcceptPageFooter: '&6---------------------------------------------'
+  PlayerInfoHeader: '&6---------------------------------------------'
+  PlayerInfoFooter: '&6---------------------------------------------'
+  Default: '&6---------------------------------------------'
+Commands:
+  AcceptedExecutes:
+  - atrpublic &6%player% &f zaakceptował/a zasady!
+  DenyExecutes:
+  - atrpublic &3%player% &f odrzucił/a zasady!
+  - |-
+    kick %player% Cześć %player%,
+    zaakceptuj nasze zasady serwera przed rozpoczęciem gry!
+  AllowedCommands:
+  - rules
+  - rule
+  - atrnext
+  - atrback
+  - atraccept
+  - atrdeny
+  - atrgui
+StartMessage:
+  Enable: true
+  Delay: 0
+Freeze:
+  Enable: false
+  MessageCooldown: 3
+  EnableLookAround: false
+Options:
+  SetAdventureMode: false
+Prevent:
+  Chat: false
+  Commands: false
+  Interact: false
+  MessageCooldown: 3
+Period:
+  Enable: false
+  Days: 90

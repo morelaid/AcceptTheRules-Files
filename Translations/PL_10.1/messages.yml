@@ -1,0 +1,36 @@
+Info:
+  ReloadComplete: '&r[&4Accept&eThe&2Rules&r] &3Plugin został przeładowany!'
+  PlayerNotFound: '&r[&4Accept&eThe&2Rules&r] &4Nie znaleziono Gracza!'
+  NoPermission: '&r[&4Accept&eThe&2Rules&r] &4Nie masz uprawnień do korzystania z komendy!'
+PlayerInfo:
+  Playername: '&2Gracz:&5 '
+  HasAccepted: '&2Zaakceptowane:&3 '
+  Version: '&2Wersja:&6 '
+  Date: '&2Data akceptacji:&5 '
+Message:
+  ResetPlayer: '&3Gracz &6%player% &3został zresetowany. 
+    Gracz musi ponownie zaakceptować zasady.'
+  RulesCooldown: '&6>>> &4Przeczytaj zasady dokładnie, nie próbuj skipować zasad!
+    &6<<<'
+  StartMessage: Użyj &6['/rules'](/rules)&f do przeczytania i akceptacji zasad. 
+    Może otrzymasz nagrody!
+  AcceptText: 'Potwierdzenie przeczytania i zrozumienia zasad: '
+  FreezeText: Nie możesz się ruszyć. Przeczytaj i zaakceptuj zasady komendą
+    '/rules'!
+  PreventChat: '&6Musisz zaakceptować zasady. Użyj ''&3/rules&6''
+    do akceptacji.'
+  PreventCommands: '&6Musisz zaakceptować zasady. Użyj ''&3/rules&6''
+    do akceptacji.'
+  PreventInteract: '&6Musisz zaakceptować zasady. Użyj ''&3/rules&6''
+    do akceptacji.'
+  Report: Wszystkie pliki konfiguracyjne i ostatni plik dziennika zostały zapisane w katalogu ATR
+    jako plik „Raport.zip”. Proszę przesłać plik do zespołu wsparcia ATR
+  PrivatBypassInfoMessage: '&6%player% &fzaakceptował zasady!'
+  BedrockTitle: '&4Accept&eThe&2Rules&r'
+  
+#########################################################
+#                                                       #
+#             Polnish translate by Dereten              #
+#             for AcceptTheRules v 10.1                 #
+#                                                       #
+#########################################################
